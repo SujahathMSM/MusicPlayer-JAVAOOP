@@ -1,0 +1,18 @@
+Important Notes
+///
+public Album(String name, String artist, ArrayList<Song> songs) {
+        this.name = name;
+        this.artist = artist;
+        this.songs = new ArrayList<Song>();
+    }
+///
+Explanation for third Line:
+==========
+In this line of code:
+
+this.songs refers to the songs instance variable of the Album class. It's a reference to an ArrayList object that will hold Song objects.
+
+new ArrayList<Song>() creates a new instance of the ArrayList class. The <Song> part indicates that this ArrayList will specifically hold objects of the Song class.
+
+So, putting it together, the last line of code initializes the songs instance variable of the Album class to a new, empty ArrayList that can hold Song objects. This ensures that when you create an Album object, it starts with an empty list of songs, which you can later populate with actual Song objects.
+==========
